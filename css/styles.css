@@ -169,9 +169,7 @@ ul {
   align-items: center;
 }
 .contact-icon {
-  margin-right: 10px;
- 
-  
+  margin-right: 10px;  
 }
 
 .contacts-mail{
@@ -185,8 +183,8 @@ ul {
 }
 .header-contacts a{
 color: #757575;
-
 }
+
 .contacts-tel:hover,
 .contacts-tel:focus {
   color: var(--hover-focus-color);
