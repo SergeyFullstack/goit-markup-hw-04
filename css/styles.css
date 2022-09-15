@@ -166,13 +166,27 @@ ul {
 
 .main-nav {
   display: flex;
-
   align-items: center;
 }
 .contact-icon {
   margin-right: 10px;
+ 
+  
 }
 
+.contacts-mail{
+  display: flex;
+  align-items: center;
+}
+
+.contacts-tel,.contacts-mail{
+   fill:#757575;
+ 
+}
+.header-contacts a{
+color: #757575;
+
+}
 .contacts-tel:hover,
 .contacts-tel:focus {
   color: var(--hover-focus-color);
@@ -671,6 +685,8 @@ border-color: var(--hover-focus-color);
 
 .flex-footer{
   display: flex;
+  align-items: baseline;
+  
 }
 
 .title-footer{
@@ -680,7 +696,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
-padding-top: 15px;
+
 margin-bottom:20px;
 margin-left: 70px;
 }
